@@ -13,3 +13,8 @@
 * **語言**: Python
 * **核心庫**: Scikit-Learn, Pandas, NumPy, Joblib
 * **自動化潛力**: 具備整合 Playwright 進行動態數據採集的能力。
+
+## 🌐 如何運行 API 服務
+1. 進入 `scripts` 資料夾。
+2. 執行 `python -m uvicorn app:app --reload`。
+3. 打開 `http://127.0.0.1:8000/docs` 即可進行即時預測。
